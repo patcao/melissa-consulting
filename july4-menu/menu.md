@@ -4,26 +4,26 @@ Vaguely July 4th, apartment-friendly, make-ahead where possible, with room for e
 
 ## Current Menu
 
-- [Smoked whitefish Caesar salad](smoked-whitefish-caesar-salad.md)
+- [Smoked whitefish Caesar salad](recipes/smoked-whitefish-caesar-salad.md)
   - Rye breadcrumbs
   - Fried capers
   - Optional toasted watermelon seeds
-- [Agua frescas](agua-frescas.md)
-- [Buffalo mac and cheese](buffalo-mac-and-cheese.md)
+- [Agua frescas](recipes/agua-frescas.md)
+- [Buffalo mac and cheese](recipes/buffalo-mac-and-cheese.md)
   - Possible garnish: celery leaf gremolata, blue cheese, scallions, pickled celery
-- [Coca-Cola braised short ribs](coca-cola-braised-short-ribs.md)
+- [Coca-Cola braised short ribs](recipes/coca-cola-braised-short-ribs.md)
   - Possible direction: tamarind, lime, black pepper, ginger, soy, chile
-- [Sweet corn panna cotta](sweet-corn-panna-cotta.md)
+- [Sweet corn panna cotta](recipes/sweet-corn-panna-cotta.md)
   - Blueberry-lime-black pepper sauce
   - Optional bay leaf in the sauce
-- [Watermelon: rind pickles, compressed cubes, and seeds](watermelon-rind-pickles-compressed-cubes-and-seeds.md)
+- [Watermelon: rind pickles, compressed cubes, and seeds](recipes/watermelon-rind-pickles-compressed-cubes-and-seeds.md)
   - Pickled rind
   - Vacuum-compressed watermelon cubes
   - Toasted seeds for savory or dessert garnish
 
 ## Potential Adds
 
-- [Miso black cod](miso-black-cod.md)
+- [Miso black cod](recipes/miso-black-cod.md)
   - Nobu-style sake, mirin, white miso, and sugar marinade
   - Best with sablefish/black cod
   - Marinate 2-3 days
