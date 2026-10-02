@@ -316,3 +316,7 @@ html[data-theme="modern-contrast"] .card {
     margin-top: 6px;
   }
 }
+
+.layout-control select {
+  min-width: 150px;
+}

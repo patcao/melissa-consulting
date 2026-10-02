@@ -7,6 +7,7 @@
   <script>(function(){try{document.documentElement.dataset.theme = localStorage.getItem("melissa-consulting-theme") || "quiet-editorial";}catch(error){document.documentElement.dataset.theme = "quiet-editorial";}})();</script>
   <link rel="stylesheet" href="styles.css">
   <script src="theme.js" defer></script>
+  <script src="layout-switcher.js" defer></script>
 </head>
 <body>
   <div class="shell">
@@ -28,7 +29,15 @@
             <option value="modern-contrast">Modern Contrast</option>
           </select>
         </div>
-      </div>
+        <div class="theme-control layout-control">
+          <label for="layout-select">Layout</label>
+          <select id="layout-select" data-layout-select data-current-layout="editorial" aria-label="Choose site layout">
+            <option data-layout="editorial" value="services.html">Editorial</option>
+            <option data-layout="advisor-profile" value="layouts/advisor-profile/services.html">Advisor Profile</option>
+            <option data-layout="reader-lens" value="layouts/reader-lens/services.html">Reader Lens</option>
+            <option data-layout="services-first" value="layouts/services-first/services.html">Services First</option>
+          </select>
+        </div>      </div>
     </header>
 
     <main>
