@@ -82,9 +82,6 @@ nav a[aria-current="page"] {
   padding: clamp(42px, 6vw, 78px) 0;
 }
 
-.compact-profile {
-  align-items: start;
-}
 
 .eyebrow,
 .service-type {
