@@ -69,16 +69,17 @@ nav a[aria-current="page"] {
   color: var(--ink);
 }
 
-.hero,
-.intro-profile {
-  padding: clamp(46px, 7vw, 96px) 0;
+.page-intro {
+  max-width: 760px;
+  padding: clamp(34px, 5vw, 62px) 0;
 }
 
-.intro-profile {
+.practice-intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-columns: 320px minmax(0, 1fr);
   gap: clamp(32px, 6vw, 76px);
   align-items: center;
+  padding: clamp(42px, 6vw, 78px) 0;
 }
 
 .compact-profile {
@@ -94,15 +95,21 @@ nav a[aria-current="page"] {
 }
 
 h1 {
-  max-width: 820px;
-  margin: 12px 0 18px;
-  font: normal clamp(40px, 6vw, 78px)/.98 var(--heading-font);
+  margin: 10px 0 8px;
+  font: normal clamp(34px, 5vw, 48px)/1.05 var(--heading-font);
 }
 
-.lede {
+h2 {
+  max-width: 760px;
+  margin: 10px 0 18px;
+  font: normal clamp(27px, 4vw, 42px)/1.08 var(--heading-font);
+}
+
+.lede,
+.intro-copy p {
   max-width: 660px;
   color: var(--muted);
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .button {
@@ -123,7 +130,7 @@ h1 {
 
 .portrait-placeholder {
   display: grid;
-  min-height: 260px;
+  min-height: 240px;
   place-items: center;
   margin-bottom: 20px;
   background: var(--soft);
@@ -132,7 +139,7 @@ h1 {
 
 .portrait-card h2 {
   margin: 0 0 8px;
-  font: normal 30px/1.05 var(--heading-font);
+  font: normal 26px/1.05 var(--heading-font);
 }
 
 .portrait-card p {
@@ -146,7 +153,7 @@ h1 {
 
 .section-title {
   margin: 0 0 30px;
-  font: normal 42px/1 var(--heading-font);
+  font: normal clamp(26px, 3.5vw, 36px)/1.08 var(--heading-font);
 }
 
 .cards {
@@ -181,6 +188,11 @@ h1 {
 
 .two-col p {
   max-width: 560px;
+}
+
+.section-lede {
+  max-width: 720px;
+  margin-bottom: 24px;
 }
 
 .steps {
@@ -269,7 +281,7 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .intro-profile,
+  .practice-intro,
   .two-col,
   .steps,
   .cards,
@@ -279,6 +291,10 @@ h1 {
 
   .portrait-card {
     max-width: 420px;
+  }
+
+  .page-intro {
+    max-width: none;
   }
 }
 
