@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Melissa Cao — Design Directions</title>
+  <style>
+    :root { --ink:#1d1d1b; --paper:#f6f5f1; --line:#d9d8d0; --orange:#da5d37; }
+    * { box-sizing:border-box; } body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.45 Arial, sans-serif; }
+    main { max-width:1120px; margin:auto; padding:32px 24px 72px; } header { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); padding-bottom:20px; }
+    .mark { font:600 15px/1 Georgia,serif; letter-spacing:.08em; text-transform:uppercase; } .tag { color:#686863; font-size:13px; }
+    h1 { max-width:760px; font:normal clamp(46px,8vw,100px)/.94 Georgia,serif; letter-spacing:-.06em; margin:88px 0 25px; } .intro { max-width:550px; font-size:18px; color:#565650; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:64px; } a { text-decoration:none; color:inherit; }
+    .card { min-height:280px; display:flex; flex-direction:column; justify-content:space-between; padding:25px; border:1px solid var(--line); transition:transform .2s,box-shadow .2s; } .card:hover { transform:translateY(-4px); box-shadow:0 12px 26px #00000012; }
+    .number { font-size:12px; color:#74746e; } h2 { font:normal 37px/1 Georgia,serif; letter-spacing:-.04em; margin:0; } .card p { max-width:360px; color:#565650; margin:0; } .one { background:#ece9df; } .two { background:#d2e0d8; } .three { background:#202323; color:#f4f1e9; } .three p,.three .number { color:#c4c7c0; } .four { background:#edd9cc; }
+    footer { border-top:1px solid var(--line); margin-top:64px; padding-top:18px; color:#686863; font-size:13px; } @media(max-width:650px) { .grid { grid-template-columns:1fr; } h1 { margin-top:56px; } .tag { display:none; } }
+  </style>
+</head>
+<body><main>
+  <header><div class="mark">Melissa Cao</div><div class="tag">College essay consulting · Design exploration</div></header>
+  <h1>Choose a starting point.</h1>
+  <p class="intro">Four directions for a clear, thoughtful college essay consulting site. They use placeholder content so we can focus first on the feeling, structure, and hierarchy.</p>
+  <section class="grid">
+    <a class="card one" href="quiet-editorial.html"><span class="number">01 / QUIET EDITORIAL</span><h2>Considered,<br>literary, calm.</h2><p>Spacious typography and a restrained, high-trust feel.</p></a>
+    <a class="card two" href="warm-studio.html"><span class="number">02 / WARM STUDIO</span><h2>Human,<br>optimistic, open.</h2><p>A welcoming studio that makes a big process feel manageable.</p></a>
+    <a class="card three" href="structured-advisor.html"><span class="number">03 / STRUCTURED ADVISOR</span><h2>Precise,<br>direct, capable.</h2><p>A crisp framework for families looking for guidance and clarity.</p></a>
+    <a class="card four" href="modern-contrast.html"><span class="number">04 / MODERN CONTRAST</span><h2>Bold,<br>personal, distinctive.</h2><p>Strong type and a simple visual rhythm with more personality.</p></a>
+  </section>
+  <footer>Melissa Cao College Essay Consulting · Prototype pages</footer>
+</main></body></html>
