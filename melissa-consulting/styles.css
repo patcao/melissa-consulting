@@ -136,8 +136,12 @@ nav a[aria-current="page"] {
 }
 
 .hero {
-  padding: clamp(72px, 11vw, 150px) 0;
-  max-width: var(--hero-width);
+  padding: clamp(42px, 6vw, 82px) 0;
+  max-width: min(var(--hero-width), 860px);
+}
+
+.hero-home {
+  padding: clamp(58px, 8vw, 112px) 0;
 }
 
 .eyebrow {
@@ -148,14 +152,14 @@ nav a[aria-current="page"] {
 }
 
 h1 {
-  margin: 16px 0 24px;
-  font: normal clamp(52px, 8vw, 106px)/.92 var(--heading-font);
+  margin: 12px 0 18px;
+  font: normal clamp(38px, 5.5vw, 72px)/.98 var(--heading-font);
 }
 
 .lede {
-  max-width: 570px;
+  max-width: 640px;
   color: var(--muted);
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .button {
