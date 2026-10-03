@@ -76,9 +76,9 @@ nav a[aria-current="page"] {
 
 .practice-intro {
   display: grid;
-  grid-template-columns: clamp(150px, 30vw, 320px) minmax(0, 1fr);
-  gap: clamp(14px, 5vw, 76px);
-  align-items: center;
+  grid-template-columns: clamp(112px, 24vw, 240px) minmax(0, 1fr);
+  gap: clamp(14px, 4vw, 64px);
+  align-items: start;
   padding: 36px 0 48px;
 }
 
@@ -128,7 +128,7 @@ h2 {
 .portrait-image {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 1;
   object-fit: cover;
   margin-bottom: clamp(12px, 2.4vw, 20px);
 }
