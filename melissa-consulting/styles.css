@@ -125,13 +125,12 @@ h2 {
   background: #ffffff;
 }
 
-.portrait-placeholder {
-  display: grid;
-  min-height: clamp(130px, 24vw, 220px);
-  place-items: center;
+.portrait-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   margin-bottom: clamp(12px, 2.4vw, 20px);
-  background: var(--soft);
-  color: var(--muted);
 }
 
 .portrait-card h2 {
