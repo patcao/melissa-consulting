@@ -265,15 +265,6 @@ h2 {
   font-size: 14px;
 }
 
-.placeholder-testimonial {
-  border-style: dashed;
-  background: transparent;
-}
-
-.placeholder-testimonial blockquote {
-  color: var(--muted);
-}
-
 .contact-notes {
   border-top: 1px solid var(--line);
 }
