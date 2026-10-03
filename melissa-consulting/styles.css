@@ -141,6 +141,13 @@ h2 {
 .portrait-card p {
   margin: 0 0 8px;
 }
+.portrait-card .portrait-image:last-child {
+  margin-bottom: 0;
+}
+
+.testimonials .testimonial-list {
+  grid-template-columns: minmax(0, 760px);
+}
 
 .section {
   border-top: 1px solid var(--line);
