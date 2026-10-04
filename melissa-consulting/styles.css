@@ -211,6 +211,18 @@ h2 {
   display: grid;
   gap: 0;
 }
+.services-intro {
+  padding-bottom: 18px;
+}
+
+.services-list {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.services-list .service-item:first-child {
+  border-top: 1px solid var(--line);
+}
 
 .service-item {
   display: grid;
