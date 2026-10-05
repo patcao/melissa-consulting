@@ -224,6 +224,10 @@ h2 {
   border-top: 1px solid var(--line);
 }
 
+.services-list .service-item {
+  display: block;
+}
+
 .service-item {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
